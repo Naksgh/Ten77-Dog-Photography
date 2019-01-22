@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:100,200,300,400,500,600,700|Sans-serif:100,200,300,400,500,600,700');
 
-/*---------------------- MAIN COLORS + FONT -----------------------------------*/
+/*---------------------- MAIN COLORS + FONTS -----------------------------------*/
 
 header {
     background-color: #D9E0D9;
@@ -15,9 +15,13 @@ footer {
 }
 
 .font {
-    font-family: "Cinzel"; sans-serif;
+    font-family: "Cinzel";
+    sans-serif;
     font-weight: 600;
-    
+}
+
+.thin {
+    letter-spacing: 2px;
 }
 
 /*--------------- HEADER -----------------------------------------------*/
@@ -61,7 +65,7 @@ footer {
 }
 
 .menuitem a i {
-    padding-top: 5px;             
+    padding-top: 5px;
     display: block;
     font-size: 19px;
 }
@@ -85,25 +89,16 @@ footer {
 footer {
     border-top-style: ridge;
     border-bottom-style: ridge;
-    
 }
 
-.wrapper {
-    font-family: "Cinzel"; sans-serif;
-    font-weight: 700;
-    position: relative;
-    left: 15px;
-    top: 30px;
+.copyright {
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
 }
 
-.copyrights {
-    font-family: "Cinzel"; sans-serif;
-    font-weight: 700;
-    padding-top: 50px;
-    padding-left: 1px;
-    color: black;
-    text-transform: uppercase;
-    font-size: 12px;
+.socialwords {
+    padding-top: 17px;
 }
 
 .socials li a i {
@@ -119,8 +114,3 @@ footer {
     }
     
 }
-
-
-
-
-
