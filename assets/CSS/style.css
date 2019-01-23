@@ -92,25 +92,37 @@ footer {
 }
 
 .copyright {
-    height: 80px;
+    height: 90px;
     display: flex;
     align-items: flex-end;
 }
 
-.socialwords {
-    padding-top: 17px;
+.socialicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .socials li a i {
-    font-size: 30px;
+    font-size: 42px;
+    padding-top: 17px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
 }
 
-/*---------------------- MEDIA QUERIES --------------*/
-
-/*@media (min-width: 415px) {
-    .menuitem span {
-        font-size: 18px;
-        padding-top: 5px;
-    }
-    
+.socials li a i:hover {
+    color: brown;
+    font-size: 50px;
+    padding: 15px;
 }
