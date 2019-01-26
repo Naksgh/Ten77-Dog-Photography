@@ -15,8 +15,7 @@ footer {
 }
 
 .font {
-    font-family: "Cinzel";
-    sans-serif;
+    font-family: "Cinzel", sans-serif;
     font-weight: 600;
 }
 
@@ -112,7 +111,7 @@ footer {
 }
 
 .socials li a i {
-    font-size: 42px;
+    font-size: 38px;
     padding-top: 17px;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -123,6 +122,16 @@ footer {
 
 .socials li a i:hover {
     color: brown;
+    font-size: 45px;
+    padding: 10px;
+}
+
+/*--------------- INDEX CONTENT -----------------------------------------------*/
+
+.firstheader {
+    margin-top: 40px;
+}
+
+.btn-group-lg > .btn, .btn-lg {
     font-size: 50px;
-    padding: 15px;
 }
