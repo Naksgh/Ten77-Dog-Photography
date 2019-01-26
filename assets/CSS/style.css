@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel:100,200,300,400,500,600,700|Sans-serif:100,200,300,400,500,600,700');
 
+
 /*---------------------- MAIN COLORS + FONTS -----------------------------------*/
 
 header {
@@ -129,9 +130,60 @@ footer {
 /*--------------- INDEX CONTENT -----------------------------------------------*/
 
 .firstheader {
-    margin-top: 40px;
+    margin-top: 55px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 600;
 }
 
-.btn-group-lg > .btn, .btn-lg {
+.secondheader {
+    margin-top: 40px;
+    margin-bottom: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Calibri light', sans-serif;
+    font-weight: 400;
+
+}
+
+.btn-primary {
+    font-family: 'Nanum Gothic', sans-serif; 
+    font-weight: 700;
+    font-size: 37px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: transparent;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:hover {
     font-size: 50px;
+    color: #fff;
+    background-color: brown;
+    border-color: transparent
+}
+
+.wrapper p i {
+    font-size: 38px;
+    padding-left: 5px;
+    
+}
+
+
+
+
+
+/*--------------- Media Queries  -----------------------------------------------*/
+
+
+
+@media (min-width: 768px) {
+    .secondheader {
+        padding-right: 110px;
+        padding-left: 110px;
+    }
 }
