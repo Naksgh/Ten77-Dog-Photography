@@ -5,10 +5,12 @@
 
 header {
     background-color: #D9E0D9;
+
 }
 
 body {
     background-color: #D9E0D9;
+
 }
 
 footer {
@@ -26,19 +28,22 @@ footer {
 
 /*--------------- HEADER -----------------------------------------------*/
 
-.img {
-    background: url("../images/header.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 230px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    border-radius: 14px 14px 14px 14px;
-    -moz-border-radius: 14px 14px 14px 14px;
-    -webkit-border-radius: 14px 14px 14px 14px;
+.spaces {
+    padding-right: 0;
+    padding-left: 0;
 
+}
+
+.headerpic {
+    background-size: cover;
+    width: 100%;
+
+}
+
+
+
+#navpad {
+    margin-top: 0;
 }
 
 .menuitem {
@@ -47,15 +52,16 @@ footer {
     text-align: center;
     height: 80px;
     background-color: #cac2b0;
-    border: solid 1px;
     margin-top: 4px;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75) border-radius: 30px 29px 29px 27px;
-    -moz-border-radius: 30px 29px 29px 27px;
-    -webkit-border-radius: 30px 29px 29px 27px;
+    transition: all 0.4s ease-in-out;
 
 }
+
+.menuitem:hover {
+    background-color: #b0c5ca;
+
+}
+
 
 .menuitem a {
     width: 100%;
@@ -79,9 +85,7 @@ footer {
     padding-top: 8px;
 }
 
-#nav {
-    margin: 0;
-}
+
 
 
 /*--------------- FOOTER -----------------------------------------------*/
@@ -151,10 +155,10 @@ footer {
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
     font-size: 37px;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: transparent;
-    transition: all 0.5s ease-in-out;
+    color: #000;
+    background-color: #cac2b0;
+    border-color: #000;                                                    
+    transition: all 0.5s ease-in-out;                        
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -162,9 +166,10 @@ footer {
 
 .btn-primary:hover {
     font-size: 50px;
-    color: #fff;
-    background-color: brown;
-    border-color: transparent
+    color: #cac2b0;
+    background-color: #030303;
+    border: 10px solid #cac2b0;
+    
 }
 
 .wrapper p i {
@@ -180,11 +185,18 @@ footer {
 }
 
 #blockquotechanges {
-    
+
     border-left: 1px solid #eee;
 }
 
+#spacing {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
 
+.img-circle {
+    border-radius: 25%;
+}
 
 
 /*--------------- Media Queries  -----------------------------------------------*/
