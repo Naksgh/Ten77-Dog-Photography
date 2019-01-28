@@ -22,6 +22,21 @@ footer {
     font-weight: 600;
 }
 
+.font-light {
+    font-family: "Cinzel", sans-serif;
+    font-weight: 300;
+}
+
+.font-nanum {
+    font-family: Nanum-Gothic;
+    font-weight: 500;
+}
+
+.font-calibri {
+    font-family: 'Calibri light', sans-serif;
+    font-weight: 400;
+}
+
 .thin {
     letter-spacing: 2px;
 }
@@ -71,7 +86,7 @@ footer {
 }
 
 .menuitem a i {
-    padding-top: 5px;
+    padding-top: 14px;
     display: block;
     font-size: 19px;
 }
@@ -134,7 +149,7 @@ footer {
 /*--------------- INDEX CONTENT -----------------------------------------------*/
 
 .firstheader {
-    margin-top: 55px;
+    margin-top: 30px;
     padding-left: 7px;
     padding-right: 7px;
     font-family: 'Nanum Gothic', sans-serif;
@@ -157,8 +172,8 @@ footer {
     font-size: 37px;
     color: #000;
     background-color: #cac2b0;
-    border-color: #000;                                                    
-    transition: all 0.5s ease-in-out;                        
+    border-color: #000;
+    transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
@@ -169,7 +184,7 @@ footer {
     color: #cac2b0;
     background-color: #030303;
     border: 10px solid #cac2b0;
-    
+
 }
 
 .wrapper p i {
@@ -198,6 +213,33 @@ footer {
     border-radius: 25%;
 }
 
+/*--------------- Contact Us  -----------------------------------------------*/
+
+.business-form {
+    margin-bottom: 25px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.btn-info {
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #2a2c2d;
+    font-size: 20px;
+    color: #2a2c2d;
+    background-color: #cac2b0;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-info:hover {
+    color:#cac2b0;
+    background-color: #2a2c2d;
+    border-color: #cac2b0;
+}
+
+
+
 
 /*--------------- Media Queries  -----------------------------------------------*/
 
@@ -206,4 +248,10 @@ footer {
         padding-right: 110px;
         padding-left: 110px;
     }
+}
+
+@media (min-width: 768px) {
+    .business-form textarea rows="5" 
+        
+    
 }
