@@ -213,7 +213,7 @@ footer {
     border-radius: 25%;
 }
 
-/*--------------- Contact Us  -----------------------------------------------*/
+/*--------------- CONTACT US  -----------------------------------------------*/
 
 .business-form {
     margin-bottom: 25px;
@@ -233,10 +233,41 @@ footer {
 }
 
 .btn-info:hover {
-    color:#cac2b0;
+    color: #cac2b0;
     background-color: #2a2c2d;
     border-color: #cac2b0;
 }
+
+
+/*--------------- GALLERY  -----------------------------------------------*/
+
+.dogsimg {
+    width: 28%;
+    height: 28%;
+    padding-bottom: 5px;
+}
+
+
+
+.gallerywrap {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+/*--------------- ABOUT US  -----------------------------------------------*/
+
+.carousel-inner {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.carousel-control {
+    opacity: 0;
+}
+
+
 
 
 
@@ -247,11 +278,6 @@ footer {
     .secondheader {
         padding-right: 110px;
         padding-left: 110px;
-    }
-}
 
-@media (min-width: 768px) {
-    .business-form textarea rows="5" 
-        
-    
+    }
 }
