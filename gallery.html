@@ -46,7 +46,7 @@
 
     </header>
     <h1 class="text-center font-light">Gallery</h1>
-    <section class="row text-center gallerywrap">
+    <gallery class="row text-center gallerywrap">
         <div class="row">
             <a href="https://www.facebook.com/ten77dogphotography/photos/basw.AbqP9wOWb0sL5tU0yG7HSstyxnCcbV3QdYOIGWA1LxOk3aY4hvjnJ4byQLb1hxugkswqENWc5fpoZiZYRpF-vAKAS6Nzgo9RQW2cmPE02g1qcW-ruDl8nL2DrPQpt1uzAP-3-xHQWOHFLFP8OLGyOqePUR2kn_F_OHloPviVZJ-5Hw.1615317945442303.1627448267562604.1617639388543492.1638477563126341.1617638538543577.1592984824342282/1615317945442303/?type=1&opaqueCursor=Abqf-WBhDpt9Ydu-Pr-quKtLlWu_--skjXLJ_KVKbvBZDhLF19jp8cmDWGZAAHlInaIM_2pJmNTs4uUohIDxtN42mp8nq6ddkfOqpjJXzJH1mlbsXKdbr7WW-AmiIXa2C_TR5ARiVostFrhed7-lGdwV-uDZmxuIhm9-zGbEx9Z3nTc0GYOQuxi5CJ8XdB3CdcXipckbIIm95ACUnWYcPUuh8a6HTBR4VLm_IFivAnNQhG38Orf5joOkCAiPygQJ66hjSxyE8UkmOboIhmE9L4jir9GQMK0rf7PBVHjkCQAPQSRqcJIAjK5b7I30r5AqhldPoMNjWKDGU1K0o9n6tA33ISqqXBcgsVSv3QT9E4ao1TRcafeFIKRh3Caq1wrJc_1nwqfC56hmD2zrVRRBzH1aVTsUuI7bAKhwbeADBF0N_SqQUs83tugyebdGrVEXUgoxwC9v-6wOKoBINDohfJ3EyG6APl9P7lXA-Fil_ADaBqZkUoEcpgf3kpI3DyL2X9OmoxDsqfiCXriKwaiGewVqG4umBAB9a4OB_TXtboLmx6evKVz09nQkhKEWXuDjg74ZdB3q7PUVTa0l65W3zxYPPR105bpSWAQOryKMtQUwHw&theater"
                 target="_blank">
@@ -83,13 +83,13 @@
             <img src="assets/images/gallery/dog8.jpg" class="dogsimg img-rounded">
             </a>
         </div>
-    </section>
+    </gallery>
     <div class="button">
         <div class="text-center">
-            <p><button type="button" class="btn btn-lg btn-primary">ASK NICK</button></p>
+            <p><button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#asknickmodal">ASK NICK</button></p>
         </div>
         <div class="wrapper">
-            <p class="text-center"><strong>Nick doesn't bite - ask him a question!</strong><i class="fas fa-comments"></i></p>
+            <p class="text-center"><strong>Got a question? Press the button...</strong><i class="fas fa-comments"></i></p>
         </div>
     </div>
     <footer class="container-fluid">
@@ -111,6 +111,30 @@
             </div>
         </div>
     </footer>
+    <!------------------ Modal------------------>
+    <div class="modal fade" id="asknickmodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">What would you like to ask?</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="askbutton-form">
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="What's your name?" />
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="What's your e-mail address?" required/>
+                        <textarea rows="4" name="msgsummary" class="form-control" id="msgsummary" placeholder="What would you like to ask?" required></textarea>
+                        <button type="submit" class="btn btn-modal center-block">Send!</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-closenick center-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
