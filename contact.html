@@ -42,38 +42,41 @@
             </ul>
         </div>
     </header>
-
-    <contact class="container-fluid">
+    <h1 class="text-center font-light">Business Enquiries</h1>
+    <div class="container-fluid contact-wrap">
         <div class="row">
-            <h1 class="text-center font-light">Business Enquiries</h1>
-            <h3 class="text-center font-calibri" >Want to get in touch? Fill in the forms below, submit and Nick will respond personally.</h3>
-            <b><i><p class="text-center"><mark>if you have a quick question you can use the more informal "ASK NICK" button located on the other pages</mark></p></i></b>
+            <div class="col-xs-12 col-md-4">
+                <h3 class="text-center font-calibri contactheader">Want to get in touch? Fill in the form below, submit and Nick will respond personally.</h3>
+                <b><i><p class="text-center"><mark>if you have a quick question you can use the more informal "ASK NICK" button located on the other pages</mark></p></i></b>
+            </div>
+            <div class="col-xs-12 col-md-8">
+                <form class="business-form">
+                    <input type="ema" name="emailaddress" class="form-control" id="emailaddress" placeholder="You Email Address" required/>
+                    <textarea rows="5" name="msgsummary" class="form-control" id="msgsummary" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-info center-block">Send</button>
+                </form>
+            </div>
         </div>
-        <div>
-            <form class="business-form">
-                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                <textarea rows="7" name="msgsummary" class="form-control" id="msgsummary" placeholder="Your enquiry" required></textarea>
-                <button type="submit" class="btn btn-info center-block">Send!</button>
-            </form>
-        </div>
-    </contact>
+    </div>
+
+
+
 
     <footer class="container-fluid">
         <div class="row">
             <div class="col-xs-6">
                 <div class="copyright">
-                    <b><i class="thin">Ten77 Dog Photography <br> All Rights Reserved</i></b>
+                    Ten77 Dog Photography All Rights Reserved
                 </div>
             </div>
             <div class="col-xs-6">
-                <div class="socialicons">
+                <div class="text-center">
                     <ul class="list-inline socials">
                         <li><a target="_blank " href="# "><i class="fab fa-facebook"></i></a></li>
                         <li><a target="_blank " href="# "><i class="fab fa-instagram"></i></a></li>
                         <li><a target="_blank " href="# "><i class="fab fa-twitter-square"></i></a></li>
+                    </ul>
                 </div>
-                </ul>
             </div>
         </div>
     </footer>
