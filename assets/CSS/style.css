@@ -110,7 +110,14 @@ footer {
     padding-top: 8px;
 }
 
+.alert-warning {
+    margin-bottom: 0;
+    padding: 5px 0 5px 0;
+}
 
+.alert-paragraph {
+    padding-left: 15px;
+}
 
 
 /*--------------- FOOTER -----------------------------------------------*/
@@ -150,17 +157,47 @@ footer {
 
 /*--------------- INDEX CONTENT -----------------------------------------------*/
 
-.introparagraph {
-    margin-top: 20px;
-    border-bottom: solid 1px;
-    font-family: 'Forum';
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 15px;
+.offer-board {
+    background-color: #b0c5ca;
 }
 
-.bodyparagraph {
-    padding: 20px 20px 0 20px;
+.btn-offer-board {
+    color: #fff;
+    background-color: #606998;
+    width: 250px;
+    font-size: 27px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.btn-offer-board:hover {
+    color: #ccebf3;
+}
+
+.btn-offer-board:focus {
+    color: #fff;
+}
+
+.notice-heading {
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    background-color: #cac2b0;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+
+.offer-board-text {
+    padding: 0 10px 0 10px;
+}
+
+.offer-heading {
+    margin-top: 0px;
+}
+
+.intro {
+    margin: 0 30px 0 30px;
 }
 
 .indexpic {
@@ -209,7 +246,7 @@ footer {
 }
 
 .page-header {
-    margin: 20px 0 20px;
+    margin: 0 0 20px;
 }
 
 #blockquotechanges {
@@ -306,10 +343,12 @@ footer {
 }
 
 .modal-footer {
-    background-color: black;
+    border-top: 2px solid #000;
+    background-color: #b0c5ca;
 }
 
 .btn-modal {
+    margin-top: 10px;
     background-color: #d9e0d9;
     font-size: 20px;
     transition: all 0.3s ease-in-out;
@@ -317,6 +356,7 @@ footer {
 
 .btn-modal:hover {
     background-color: #b0c5ca;
+    border: solid 1px;
 }
 
 .btn-closenick {
@@ -326,7 +366,8 @@ footer {
 }
 
 .btn-closenick:hover {
-    background-color: #b0c5ca;
+    background-color: #cac2b0;
+    border: solid 1px;
 }
 
 .placeholderpic {
@@ -350,6 +391,21 @@ footer {
     .business-form {
         max-width: 60%;
         margin: 0 auto;
+    }
+}
 
+@media (min-width: 991px) {
+    .offer-board-inner {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (min-width: 991px) {
+    .offer-board {
+        margin: 20px 40px 0 40px;
+        -webkit-box-shadow: 24px 11px 15px 9px rgba(0, 2, 3, 1);
+        -moz-box-shadow: 24px 11px 15px 9px rgba(0, 2, 3, 1);
+        box-shadow: 24px 11px 15px 9px rgba(0, 2, 3, 1);
     }
 }
