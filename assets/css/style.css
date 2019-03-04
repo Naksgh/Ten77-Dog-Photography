@@ -263,14 +263,14 @@ footer {
     height: auto;
 }
 
+
 .imglink {
     display: block;
     margin: 2.5px;
 }
 
 .gallerywrap {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 2.5px 15px 2.5px;    
 }
 
 .no-padding {
