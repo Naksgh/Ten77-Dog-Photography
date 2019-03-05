@@ -1,6 +1,6 @@
 # Ten77 Dog Photography
 
-Project Overview
+## Project Overview
 
 [Ten77 Dog Photography](http://example.com "Go to the Website") is a real business based in Teasside (Yourkshire, UK), where Nick, the sole proprietor, offers pet photography services. 
 I have decided to create a website for Nick in order to give more exposure to his business. 
@@ -11,8 +11,8 @@ to increase business awareness
 
 by...
 
-* prompt prospective clients to contanct Nick both on formal and informal basis 
-* display his work in Gallery 
-* promote his social media outlets
-* promote his monthly offers
+* prompting prospective clients to contanct Nick both on formal and informal basis 
+* displaying his work in Gallery 
+* promoting his social media outlets
+* promoting his monthly offers
 
