@@ -29,9 +29,6 @@ footer {
     width: 100%;
 }
 
-#navpad {
-    margin-top: 0;
-}
 
 .menuitem {
     font-family: "Cinzel", sans-serif;
@@ -42,6 +39,7 @@ footer {
     margin-top: 4px;
     transition: all 0.4s ease-in-out;
     border-bottom-style: ridge;
+    margin-top: 0;
 }
 
 .menuitem:hover {
@@ -206,17 +204,15 @@ footer {
     font-size: 30px;
 }
 
-#blockquotechanges {
+.blockquotechanges {
     border-left: 1px solid #eee;
 }
 
-#spacing {
-    margin-left: 15px;
-    margin-bottom: 15px;
-}
 
 .img-circle {
     border-radius: 25%;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -270,7 +266,7 @@ footer {
 }
 
 .gallerywrap {
-    margin: 15px 2.5px 15px 2.5px;    
+    margin: 15px 2.5px 15px 2.5px;
 }
 
 .no-padding {
@@ -375,7 +371,7 @@ footer {
     }
 }
 
-@media (min-width: 776px) {
+@media (min-width: 466px) {
     .about-section {
         font-size: 25px;
     }
