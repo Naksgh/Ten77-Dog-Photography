@@ -128,10 +128,10 @@ There are no differences between the deployed and the development versions.
 
 ## Credit 
 
-### MEDIA
+### Media
 * All pictures in the gallery and about us section were used with the permission from the rightful owner Nick
 * Rachel Shelley and Samuel Wetton have both given permission to use their images in the review section
 
-### ACKNOWLEDGEMENT 
+### Acknowledgment  
 * Thank you Nick for allowing me to create this website
 * Thank you Chris Zielinski, my mentor, for supporting me throughout the creation of this project
