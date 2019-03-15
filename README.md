@@ -1,5 +1,5 @@
 # Ten77 Dog Photography
-Link to the live website on GitHub Pages : https://milestone1-naks.c9users.io/index.html
+Link to the live website on GitHub Pages : https://naksgh.github.io/ten77/
 
 ## Project Overview
 
