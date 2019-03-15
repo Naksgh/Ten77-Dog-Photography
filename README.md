@@ -94,23 +94,23 @@ A prospective customer or collaborator, who would like to find out more about Ni
 1) go to 'About Us' section on the webpage 
 2) read the content 
 
-When viewing the website in desktop mode the it appears the same in Chrome, Firefox and Opera browsers. The only exception being the border element on the top of the footer and the bottom of the nav bar. This border appears the same in Chrome and Opera but different in Firefox (thicker black border, opposed to a white one with a thin dark underline). <br>
+When viewing the website in desktop mode it appears the same in Chrome, Firefox and Opera browsers. The only exception being the border element on the top of the footer and the bottom of the nav bar. This border appears the same in Chrome and Opera but different in Firefox (thicker black border, opposed to a white one with a thin dark underline). <br>
 I also experienced a  challenging bug with the social media icons through out the project. The icons would not appear in real time on certain smaller devices (phones and tablets) and would always appear on laptops and PC's (desktop size devices). <br>
 Clearing the cache and cookies on smaller devices has fixed the issue. <br>
 The mobile first approach was used when creating this website, therefore there are some responsive elements to the site
 <br>
 
 ### Index:
-There are 2 logo images, the larger one is displayed at MD and above, while the smaller one can be seen on small devices and below.<br>
-The offer alert above the logo picture on the index page is hidden on small devices. <br>
-The main navbar collapses from four icons on a single row to two icons over two rows on medium and smaller devices. <br>
-In desktop view, the offer board (Jumbotron) has both a shadow effect and colored margins on the left and right side, these disappear on medium devices and below using media queries.<br>
-The Reviews section collapses into a row per review on medium devices and below, whilst on bigger devices they share a single row.<br>
+* There are 2 logo images, the larger one is displayed at MD and above, while the smaller one can be seen on small devices and below.
+* The offer alert above the logo picture on the index page is hidden on small devices. 
+* The main navbar collapses from four icons on a single row to two icons over two rows on medium and smaller devices.
+* In desktop view, the offer board (Jumbotron) has both a shadow effect and colored margins on the left and right side, these disappear on medium devices and below using media queries.
+* The Reviews section collapses into a row per review on medium devices and below, whilst on bigger devices they share a single row.
 ### Gallery: 
-The album on small devices will collapse into one picture per row, whilst on medium and above devices it will show three pictures over three rows.<br>
+* The album on small devices will collapse into one picture per row, whilst on medium and above devices it will show three pictures over three rows.
 ### About us: 
-The content text changes its font-size using media queries.<br>
-On smaller devices the carousel will not display at all, instead a static image will be used. On medium and above devices the carousel with appear showcasing 3 images.
+* The content text changes its font-size using media queries.
+* On smaller devices the carousel will not display at all, instead a static image will be used. On medium and above devices the carousel with appear showcasing 3 images.
 
 ## Deployment 
 
