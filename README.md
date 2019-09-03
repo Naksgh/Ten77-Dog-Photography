@@ -1,5 +1,5 @@
 # Ten77 Dog Photography
-Link to the live website on GitHub Pages : https://naksgh.github.io/ten77/
+Link to the live website on GitHub Pages : https://naksgh.github.io/Ten77-Dog-Photography/
 
 ## Project Overview
 
